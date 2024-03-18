@@ -1,0 +1,82 @@
+h3{
+	text-align: center;
+}
+
+div,p{float:left}
+span{
+	float: right;
+    margin-right: -10px;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid;
+}
+section{
+	padding-left:15px;
+	padding-right:15px;
+	float:left;
+	margin: 5px 0px;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.bg-set{
+	border:1px solid;
+	padding-left: 10px;
+    padding-right: 10px;
+	background: #ccc;
+}
+.green{background:green}
+.red{background:red}
+.yellow{background:yellow}
+@media (min-width:992px)
+{
+.col-lg-12, .col-lg-4{
+	float:left;		
+}	
+.col-lg-12{
+	width:100%
+	
+}
+.col-lg-4{
+	width:33%
+}
+
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+.col-md-12, .col-md-6{
+	float:left;		
+}	
+.col-md-12{
+	width:100%
+	
+}
+.col-md-6{
+	width:50%
+}
+
+}
+
+@media (max-width:767px)
+{
+.col-md-12, .col-md-6{
+	float:left;		
+}	
+.col-md-12{
+	width:100%
+	
+}
+.col-md-6{
+	width:100%
+}
+
+}
